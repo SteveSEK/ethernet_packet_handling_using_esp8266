@@ -1,5 +1,20 @@
 # ethernet_packet_handling_using_esp8266
-Ethernet packet handling using ESP8266
+
+I wanted to implement a ethernet interface in ESP8266 module.
+
+Just in time, Espressif released open-source-lwIP as below.
+http://bbs.espressif.com/viewtopic.php?f=46&t=951
+
+So, for just test reason, I implemented ethernet packet handling code using ESP8266 as above.
+
+With this test, I'm sure that many projects with ESP8266 and ethernet are possible.
+ - Ethernet to WiFi (Ethernet to 802.11 converter)
+ - Dual NIC Application(WiFi and Ethernet)
+
+And, I think that W5500 is a best choice for the ESP8266's ethernet interface.
+https://github.com/Wiznet/ioLibrary_Driver
+
+Please refer to my test result as below and source codes.
 
 ![](https://cloud.githubusercontent.com/assets/2126804/11498987/51dbc7b6-9866-11e5-8145-ca566a951860.JPG)
 
